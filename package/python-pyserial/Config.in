@@ -1,0 +1,8 @@
+config BR2_PACKAGE_PYTHON_PYSERIAL
+	bool "python-pyserial"
+	#select BR2_PACKAGE_PYTHON_HIDAPI # runtime
+	help
+	  Python Serial Port Extension for Win32, OSX, Linux, BSD, Jython,
+	  IronPython
+
+	  https://github.com/pyserial/pyserial

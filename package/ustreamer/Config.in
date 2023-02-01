@@ -1,0 +1,10 @@
+config BR2_PACKAGE_USTREAMER
+	bool "ustreamer"
+	depends on BR2_PACKAGE_LIBBSD
+	depends on BR2_PACKAGE_LIBEVENT
+	depends on BR2_PACKAGE_JPEG
+	#depends on BR2_PACKAGE_JPEG_TURBO #try turbo later
+	help
+	  µStreamer - Lightweight and fast MJPEG-HTTP streamer 
+
+	  https://github.com/pikvm/ustreamer
