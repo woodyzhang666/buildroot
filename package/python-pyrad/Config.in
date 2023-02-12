@@ -1,0 +1,8 @@
+config BR2_PACKAGE_PYTHON_PYRAD
+	bool "python-pyrad"
+	help
+	  pyrad is an implementation of a RADIUS client/server as
+	  described in RFC2865. It takes care of all the details like
+	  building RADIUS packets, sending them and decoding responses.
+
+	  https://github.com/pyradius/pyrad

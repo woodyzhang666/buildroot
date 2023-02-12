@@ -1,0 +1,12 @@
+rw()
+{
+	echo "rw"
+}
+
+ro()
+{
+	echo "ro"
+}
+
+FIRST_BOOT=y
+SSH_PORT=22

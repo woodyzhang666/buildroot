@@ -1,0 +1,7 @@
+config BR2_PACKAGE_PYTHON_PAM
+	bool "python-pam"
+	help
+	  Pure Python interface to the Pluggable Authentication Modules
+	  system on Linux
+	  
+	  https://github.com/FirefighterBlu3/python-pam

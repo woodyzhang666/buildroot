@@ -1,0 +1,5 @@
+# md5, sha256 from https://pypi.org/pypi/pyserial/json
+md5  290a9e8209866595d1102ae5bba2c28c  pyghmi-1.5.57.tar.gz
+sha256  7e2d757a02baf22b6c86acf115080bb03a44aab9631a57bd8ccc13404ea3d651 pyghmi-1.5.57.tar.gz
+# Locally computed sha256 checksums
+sha256  cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30  LICENSE

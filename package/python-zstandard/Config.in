@@ -1,0 +1,9 @@
+config BR2_PACKAGE_PYTHON_ZSTANDARD
+	bool "python-zstandard"
+	select BR2_PACKAGE_PYTHON_CFFI
+	help
+	  This project provides Python bindings for interfacing with the
+	  Zstandard compression library. A C extension and CFFI interface
+	  are provided.
+
+	  https://github.com/indygreg/python-zstandard

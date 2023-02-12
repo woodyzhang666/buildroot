@@ -1,0 +1,9 @@
+config BR2_PACKAGE_PYTHON_PYGHMI
+	bool "python-pyghmi"
+	help
+	  This is a pure python implementation of IPMI protocol.
+
+	  pyghmicons and pyghmiutil are example scripts to show how one
+	  may incorporate this library into python code
+
+	  https://opendev.org/x/pyghmi

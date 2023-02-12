@@ -1,0 +1,6 @@
+config BR2_PACKAGE_PYTHON_TOX
+	bool "python-tox"
+	help
+	  Command line driven CI frontend and development task automation tool.
+
+	  https://tox.readthedocs.io
