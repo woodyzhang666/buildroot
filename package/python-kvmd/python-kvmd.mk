@@ -58,6 +58,8 @@ define PYTHON_KVMD_COPY_FILES
 	$(INSTALL) -D -T -m 644 $(PYTHON_KVMD_BUILDDIR)/configs/os/sysctl.conf $(TARGET_DIR)/etc/sysctl.d/99-kvmd.conf
     $(INSTALL) -D -T -m 644 $(PYTHON_KVMD_BUILDDIR)/configs/os/udev/woodylab-hdmiusb-d1.rules $(TARGET_DIR)/etc/udev/rules.d/99-kvmd.rules
     $(INSTALL) -D -T -m 444 $(PYTHON_KVMD_BUILDDIR)/configs/kvmd/main/woodylab-hdmiusb-d1.yaml $(TARGET_DIR)/etc/kvmd/main.yaml
+
+	$(INSTALL) -D -T -m 755 $(PYTHON_KVMD_BUILDDIR)/testenv/fakes/vcgencmd $(TARGET_DIR)/opt/vc/bin/vcgencmd
 endef
 
 PYTHON_KVMD_POST_BUILD_HOOKS += PYTHON_KVMD_COPY_FILES
